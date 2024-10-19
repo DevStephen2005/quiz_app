@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the close button inside the toast */
+.toast  {
+  font-size: 14px; /* Adjusts the size of the "X" mark */
+  padding: 4px 8px; /* Reduces padding to make the button smaller */
+  width: 10%; /* Reduces the width of the button */
+}
+
+.toast .close:hover {
+  color: #333; /* Darkens the color of the close symbol when hovered */
+}
+
+

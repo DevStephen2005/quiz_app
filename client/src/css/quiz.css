@@ -1,0 +1,66 @@
+/* App.css */
+
+.app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .question-section, .score-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .answer-section button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .answer-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .score-section {
+    font-size: 22px;
+    color: #333;
+    padding: 10px;
+  }
+
+  .reset{
+    margin-top: 3%;
+  }
+  .resetBtn{
+    float: right;
+    width: fit-content;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+  }
